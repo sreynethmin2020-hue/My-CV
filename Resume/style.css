@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.image {
+    width: 45%;
+    height: 200px;
+    background-color: #202938;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    width: 140px;
+    height: 170px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+.name {
+    width: 65%;
+    height: 200px;
+    background-color: #202938;
+    border: 2px solid #999;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.name h1 {
+    color: white;
+    font-size: 28px;
+    margin: 0;
+}
+
+.name h2 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+.profile h3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #202938;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    
+    color: white;
+}
+.contact h3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #202938;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+.languages h3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #202938;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+.education h3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #202938;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+.skill h3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #202938;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+.project h3 {
+    text-align: center;
+    justify-content: center;
+    background-color: #202938;
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    color: white;
+}
+.project h4 {
+    color:  blue;
+    text-decoration: underline;
+}
